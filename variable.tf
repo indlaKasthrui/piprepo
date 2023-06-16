@@ -4,5 +4,4 @@ variable "pipname" {}
 variable "allocation_method" {}
 variable "tags" {
   type = map
-  default = { owner = "devteam" }
-}
+  }
