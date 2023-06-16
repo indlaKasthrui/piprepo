@@ -1,6 +1,7 @@
 resource "azurerm_resource_group" "example" {
   name     = var.rgname
   location = var.loc
+  tags = var.tags
 }
 
 resource "azurerm_public_ip" "example" {
